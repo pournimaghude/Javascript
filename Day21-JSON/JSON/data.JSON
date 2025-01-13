@@ -1,0 +1,35 @@
+{
+    "employee":[
+        {
+            "name":"abc",
+            "id":101,
+            "salary":1000
+        },
+        {
+            "name":"pqr",
+            "id":102,
+            "salary":2000
+        },{
+            "name":"jkl",
+            "id":103,
+            "salary":4000
+        },{
+            "name":"xyz",
+            "id":104,
+            "salary":3000
+        }
+    ],
+    "Student":[
+        {
+            "name":"abc",
+            "Rollno":101
+        },
+        {
+            "name":"abc",
+            "Rollno":101
+        }, {
+            "name":"abc",
+            "Rollno":101
+        }
+    ]
+}
