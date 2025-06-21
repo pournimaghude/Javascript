@@ -41,6 +41,4 @@ Here are some examples of what you'll find in this repo:
 - Simple Projects (like calculator, todo list)
 - More coming soon!
 
-Each program includes comments to explain the logic in a beginner-friendly way.
-
 ---
