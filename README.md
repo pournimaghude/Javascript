@@ -6,7 +6,7 @@ This repository contains a collection of simple JavaScript programs designed for
 
 ---
 
-## 📌 Introduction
+##  Introduction
 
 JavaScript is a powerful and popular scripting language mainly used for web development. It allows you to create interactive websites, handle user input, and build complex applications that run in the browser.
 
@@ -17,7 +17,7 @@ This repo is created to help learners:
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 The purpose of this repository is to:
 - Provide a learning resource for beginners
@@ -26,7 +26,7 @@ The purpose of this repository is to:
 
 ---
 
-## 📚 Contents
+##  Contents
 
 Here are some examples of what you'll find in this repo:
 
