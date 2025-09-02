@@ -1,0 +1,82 @@
+//DOM concepts with small exercises: Dark Mode ON/OFF with JS 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif, Arial;
+        background-color: #ffffff;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        transition: all 0.3s ease;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+      }
+
+      button {
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        font-size: 16px;
+        background-color: #333;
+        color: white;
+        transition: background 0.3s ease, color 0.3s ease;
+      }
+
+      /* Dark mode styles */
+      .dark-mode {
+        background-color: #121212;
+        color: #f1f1f1;
+      }
+
+      .dark-mode button {
+        background: #f1f1f1;
+        color: #121212;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Hello, Light mode</h1>
+
+      <button id="toggleBtn">Switch to dark</button>
+    </div>
+    <script>
+      const toggleBtn = document.getElementById("toggleBtn");
+
+      const body = document.body;
+
+      const heading = document.querySelector("h1");
+
+      toggleBtn.addEventListener("click", () => {
+        body.classList.toggle("dark-mode");
+
+        if (body.classList.contains("dark-mode")) {
+          heading.textContent = "Hello, Dark Mode 🌙";
+
+          toggleBtn.textContent = "Switch to Light Mode";
+        } else {
+          heading.textContent = "Hello, Light Mode ☀️";
+          toggleBtn.textContent = "Switch to Dark Mode";
+        }
+      });
+    </script>
+  </body>
+</html>
